@@ -70,7 +70,7 @@ Paket offers a command to generate F# and C# _include scripts_ that
 reference installed packages. These _include scripts_ can be used in
 F# Interactive (FSI) or `.fsx` files to load packages.
 
-These are created under `.paket/load/net5.0/`.
+These are created under `.paket/load/`.
 
 The generated load scripts reference DLLs from installed packages using `#r`
 preprocessing directives.
