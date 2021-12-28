@@ -57,7 +57,7 @@ All three files should be committed into source control.
 | `dotnet paket update`                                   | Updates references to latest versions of all dependent packages.                                                                                                              |
 | `dotnet paket restore`                                  | Takes current `paket.lock` file and updates all projects to reference correction versions of NuGet packages. Should be called by your build script.                           |
 | `dotnet paket outdated`                                 | List dependencies that have updates.                                                                                                                                          |
-| `dotnet paket generate-load-scripts --framework net5.0` | This command is used to generate _include scripts_ which can be used in `.fsx` files or F# interactive.                                                                       |
+| `dotnet paket generate-load-scripts --framework net6.0` | This command is used to generate _include scripts_ which can be used in `.fsx` files or F# interactive.                                                                       |
 
 ## Loading Dependencies with F# Scripts
 
