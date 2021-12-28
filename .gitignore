@@ -1,0 +1,12 @@
+# Paket
+.paket/
+paket-files/
+
+# ionide
+.fake
+.ionide
+
+.idea
+
+bin/
+obj/
